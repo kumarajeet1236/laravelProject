@@ -21,5 +21,5 @@ Route::get('admin', function () {
 Route::get('registration', function () {
      return view('Student/registration');
  });
-
+   
 Route::match(['get','post'],'view','Student\StudentController@view');
